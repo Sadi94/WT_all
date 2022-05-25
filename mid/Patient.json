@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Mehide Hasan",
+        "contact": "01456145236",
+        "nid": "45632589",
+        "email": "abc@gmail.com",
+        "password": "123456",
+        "gender": "Male",
+        "Address": "xyz"
+    },
+    {
+        "name": "Mehide Hasan",
+        "contact": "01456145236",
+        "nid": "45632589",
+        "email": "abc@gmail.com",
+        "password": "123456",
+        "gender": "Male",
+        "Address": "zxcbug "
+    },
+    {
+        "name": "Shamit Nibras",
+        "contact": "01911364209",
+        "nid": "78945612378945",
+        "email": "shamitnibras@gmail.com",
+        "password": "123456",
+        "gender": "Male",
+        "Address": "H#08;R#12;Bl#L south banasree"
+    },
+    {
+        "name": "Shamit Nibras",
+        "contact": "01456145236",
+        "nid": "45632589",
+        "email": "hmb776@yahoo.com",
+        "password": "123456",
+        "gender": "Male",
+        "Address": "abc"
+    },
+    {
+        "name": "nibras",
+        "contact": "01752366",
+        "nid": "56",
+        "email": "qw@gmail.com",
+        "password": "4512369",
+        "gender": "Male",
+        "Address": "house-46 rd"
+    },
+    {
+        "name": "mehe",
+        "contact": "5684722",
+        "nid": "54",
+        "email": "sd@gmail.com",
+        "password": "521478",
+        "gender": "Male",
+        "Address": "gtx 5 R"
+    }
+]

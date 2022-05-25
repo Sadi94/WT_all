@@ -1,0 +1,91 @@
+.probbox{
+    width: 250px;
+    height: 385px;
+    background: rgb(40, 112, 100);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 22px;
+  }
+  .h1{
+     margin: 0px;
+
+  }
+  .label{
+      margin: 0px;
+
+  }
+input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 16px;
+    color: #fff;
+    font-size: 16px;
+    padding: 6px;
+}
+button{
+    border: none;
+    outline: none;
+    background: #804d4d;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 9px;
+    font-family: Dubai;
+    margin: 10px;
+    padding: 1px
+}
+button:hover
+{
+ cursor: pointer;
+ background: #ffc107;
+ color:#000;
+}
+ /* .showbox{
+    width: 292px;
+    height: 125px;
+    background: rgb(40, 112, 100);
+    color: #fff;
+    top: 33%;
+    left: 106%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 12px 33px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 13px;
+    line-height: 2;
+    margin: 0px;
+}  */
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 3px;
+}
+.navbar li a {
+    padding: 3px 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    background-color: red;
+}
+.body{
+    background-color: rgb(153, 148, 150);
+}

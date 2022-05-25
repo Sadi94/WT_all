@@ -1,0 +1,158 @@
+
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 3px;
+}
+.navbar li a {
+    padding: 3px 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    background-color: red;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background: rgb(40, 112, 100);
+    color:#fff;
+    top: 35%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 22px;
+  
+  }
+  
+.box p
+{
+ top: 50px;
+ margin: 3px;
+ padding: 12px;
+ font-family: sans-serif;
+ font-size: 18px;
+ text-align: center;
+}
+.box a
+{
+ height: 50px;
+ width: 20px;
+  padding: 3px;
+  margin: 55px;
+  box-sizing: border-box;
+  align-self: center;
+
+}
+.box2{
+    width: 250px;
+    height: 250px;
+    background: rgb(40, 112, 100);
+    color:#fff;
+    top: 35%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 22px;
+  
+  }
+  .box2 p
+  {
+   top: 50px;
+   margin: 3px;
+   padding: 12px;
+   font-family: sans-serif;
+   font-size: 18px;
+   text-align: center;
+  }
+
+  /* .box2 a
+{
+ height: 50px;
+ width: 20px;
+  padding: 3px;
+  margin: 55px;
+  box-sizing: border-box;
+  align-self: center;
+
+} */
+.box2 input[type="text"]
+{
+    margin: -12px;
+}
+.box3{
+    width: 320px;
+    height: 270px;
+    background: rgb(40, 112, 100);
+    color:#fff;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 22px;
+  
+  }
+  .box3 h1{
+      font-size:  20px; 
+      text-align: center;
+  }
+  .box3 p
+  {
+   margin: -13px;
+   padding-left: 14px;
+   font-family: sans-serif;
+   font-size: 15px;
+   text-align: left;
+   
+
+  }
+  .box3 input[type="submit"]
+{
+    border:none;
+    outline: none;
+    background: #804d4d;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: Dubai;
+    margin: 2px;
+    padding: 3px
+}
+.box3 input[type="submit"]:hover
+{
+ cursor: pointer;
+ background: #ffc107;
+ color:#000;
+}
+.box3 input[type="text"],input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 16px;
+    color: #fff;
+    font-size: 16px;
+    
+    
+}

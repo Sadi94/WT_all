@@ -1,0 +1,11 @@
+body {
+    font-family:  Tahoma;
+    background-color: rgb(229, 242, 255);
+  }
+  img {
+    align-items: left;
+     border-radius: 20px;
+     height: 150px;
+     width: 200px;
+ }
+ 

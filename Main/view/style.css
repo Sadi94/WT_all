@@ -1,0 +1,215 @@
+.full-wrapper{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.container-wrapper{
+    /* width: 900px; */
+    border: 1px solid black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* margin: 0 auto; */
+    padding: 20px;
+}
+
+.logo{
+    display: inline-block;
+}
+.nav-links{
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+.nav-links ul{
+    display: flex;
+    margin-top: -6px;
+}
+ul li{
+    margin-right: 20px;
+    list-style: none;
+    background-color: mediumspringgreen;
+    padding: 16px;
+    border-radius: 10px;
+
+}
+
+.logo h1{
+    margin-left: 140px;
+    font-size: 40px;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+}
+
+ul li a{
+    font-size: 18px;
+    color: black;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+}
+.body-wrapper{
+    width: 100%;
+    /* width: 1000px; */
+    background-color: black;
+    height: 700px;
+    /* margin-top: -20px; */
+    border: 1px solid black;
+
+}
+.c-big{
+    /* font-size: 50px; */
+}
+
+.body-content{
+    width: 800px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    /* margin-top: 300px; */
+}
+.body-content h1{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 70px;
+    color: #fff;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+}
+
+/* Welcome css start */
+
+.accounts-panel{
+    width: 500px;
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+}
+.accounts-panel ul li {
+    margin-right: 0px;
+    margin-bottom: 10px;
+    width: 420px;
+}
+
+.accounts-panel ul{
+    margin-left: -20px;
+}
+.accounts-panel ul li a{
+    color: black;
+    font-size: 22px;
+}
+
+/* Welcome css start */
+
+/* user-profile part start*/
+
+.profile-part{
+    width: 1070px;
+    border: 1px solid black;
+    height: 600px;
+    /* margin-left: 40px; */
+    float: right;
+    margin-top: -590px;
+    /* display: inline-block; */
+}
+
+.profile-part{
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.profile-info{
+    width: 900px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.profile-info form input{
+    width: 600px;
+    padding: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+    border: 1px solid rebeccapurple;
+
+}
+
+/* user-profile part end */
+
+
+/* /* Profile-pic part start*/
+    .profile-pic{
+        width: 300px;
+        border: 2px solid black;
+        margin-bottom: 10px;
+    }
+    .profile-pic img{
+        width: 280px;
+    }
+
+
+
+/* /* Profile-pic part End */
+
+/* UserMessage Part start */
+
+.userMessage-part{
+ width: 100%;
+   
+}
+.all-users{
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.userprofile-row h2{
+    background-color: mediumspringgreen;
+    padding: 13px;
+    margin-left: 20px;
+}
+
+.send-message{
+    width: 1050px;
+    height: 650px;
+    border: 1px solid black;
+    display: inline-block;
+    float: right;
+    margin-top: -680px;
+}
+.main-form form{
+    margin-top: 480px;
+
+
+}
+
+.main-form form input{
+    width: 940px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.submit-btn{
+    width: 80px !important;
+}
+.submit-btn:hover{
+    background-color: mediumspringgreen;
+
+}
+
+.user-messaging{
+    width: 300px;
+    border: 1px solid black;
+    height: 30px;
+    margin-left: 700px;
+    margin-top: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+.user-messaging h3{
+    color: #fff;
+
+}
+/* UserMessage Part End */

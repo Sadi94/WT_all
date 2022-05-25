@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #EFEFEF;
+}
+.header-admin{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.admin-bar{
+    background-color: none;
+    text-align: center;
+    margin: auto;
+    width: auto;
+    margin-left: 320px;
+}
+.admin-bar li a{
+    color: mediumblue;
+    background-color: rgb(37, 221, 228);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 1px skyblue;
+    border-radius: 3px;
+    display: block;
+    padding: 8px 16px;
+    width: fit-content;
+    float: left;
+}
+.admin-bar li a.right{
+    float: left;
+    background-color: coral;
+    color: cornsilk;
+}
+.admin-bar li a.right:hover{
+    background-color: tomato;
+}
+.admin-bar li a:hover{
+    background-color: blue;
+    color: white;
+}
+.admin-bar a.active{
+    background-color: #666;
+    color: whitesmoke;
+}
+.header{
+background-color: rgb(79, 137, 145);
+padding-left: 130px;
+padding-right: 130px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+}
+.header a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 15px;
+    font-size: 18px;
+    font-family: verdana;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 14px;
+}
+/*Right aligned link*/
+.header a.right{
+    float: right;
+    background-color: coral;
+    color: cornsilk;
+    margin-left: 10px;
+}
+.header a.left{
+    float: left;
+    background-color: rgb(0, 0, 0);
+    color: cornsilk;
+    margin-left: 10px;
+}
+
+.header a:hover{
+    background-color: #ddd;
+    color: black;
+}
+/*Top Navigation Bar*/
+.header input[type=text]{
+    
+    padding: 12px;
+    border: 2px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 40%;
+}
+
+.topnav{
+    background-color: #333;
+    overflow: auto;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding-right: 90px;
+    padding-left: 90px;
+    text-align: center;
+}
+
+.search-form {
+    margin-left: 0px;
+}
+.button{
+    margin-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 14.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:rgba(32, 178, 171, 0.705);
+    border: none;
+}
+
+/*Plain bullet list style*/
+.plain-bullet{
+    list-style-type: none;
+}
+/*Style the navigation bar links*/
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 21px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.9px;
+}
+
+/*Active current link*/
+.topnav a.active{
+    background-color: #666;
+    color: whitesmoke;
+}
+/*Hovering for top navigation bar*/
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.main-content{
+    background-color: rgba(230, 230, 230, 0.932);
+    font-size: 20px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 20px;
+}
+.myc-link{
+    margin: 20px 200px 20px 0px;
+    background-color: rgba(22, 97, 38, 0.932);
+}
+.myac-link a{
+    display: block;
+}
+.myac-form{
+    margin-left: 450px;
+    margin-right: 170px;
+    margin-top: 300px;
+    background-color: #fff;
+}
+
+.sb-form{
+    background-color: #FFFFFF;
+}
+
+/*Login form starts here*/
+.login-div{
+    border: 1px solid black;
+    margin: auto;
+    width: 20%;
+    margin-top: 10%;
+    background-color: #FFFFFF;
+    padding: 20px 0px 20px 0px;
+}
+
+.my-font{
+    font-size: 16px;
+    font-family: verdana;
+}
+.my-textfield{
+    width: 100%;
+}
+.btn-mine{
+    background-color: orange;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    margin-top: 7px;
+    border-radius: 3px;
+}
+.btn-mine:hover{
+    background-color: yellowgreen;
+}
+.btn-mine:active{
+    background-color: blue;
+}
+.err-msg{
+    color: red;
+    font-family: 'Times New Roman';
+}
+/*Log in form ends here*/
+
+.footer{
+    background-color: black;
+    height: 45px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding-left: 400px;
+    padding-right: 130px;
+    }
+    .footer a{
+        float: left;
+        display:flex;
+        color: tomato;
+        /* text-decoration: none; */
+        margin-left: 15px;
+        margin-right: 15px;
+
+        
+    }
+
+    /*ADD Product css*/
+    .form-area{
+        margin: 150px 250px 0px 320px;
+        background-color: none;
+    }
+    .form-area input[type=text]{
+        width: 300%;
+        padding: 3px;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+    .form-area input[type=file]{
+        width: 300%;
+        padding: 3px;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+    .form-area table{
+        border-spacing:0 15px;
+    }
+    .form-area select{
+        width: 300%;
+        padding: 2px;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+    .form-area textarea{
+        width: 300%;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 5px;
+    }
+    /*Add product button*/
+    .sb1{
+        background-color: rgb(77, 173, 77);
+        margin-left: 350px;
+        padding: 4px;
+        border-radius: 4px;
+    }
+    .sb1:hover{
+        background-color: greenyellow;
+    }
+    .sb1:active{
+        background-color: #aeaeaf;
+    }

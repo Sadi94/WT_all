@@ -1,0 +1,30 @@
+.navbar{
+    background-color: black;
+    border-radius: 50px;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 3px;
+}
+.navbar li a {
+    padding: 3px 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    background-color: red;
+}
+img{
+    margin-top: 45px;
+    margin-left: 575px;
+}
+p {
+    margin: 18px 396px 31px;
+    padding: 32px;
+    text-align: center;
+}
